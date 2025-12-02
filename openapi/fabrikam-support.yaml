@@ -1,0 +1,37 @@
+openapi: 3.0.3
+info:
+  title: Fabrikam Support API
+  version: 1.0.0
+paths:
+  /support/faq:
+    get:
+      summary: FAQ一覧を返す
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    q:
+                      type: string
+                    a:
+                      type: string
+  /support/tickets:
+    post:
+      summary: サポートチケットを作成
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title: { type: string }
+                description: { type: string }
+      responses:
+        '201':
+          description: Created

@@ -1,0 +1,3 @@
+{"q": "納期は？", "a": "標準リードタイムは2〜4週間です。", "source": "docs/faq.md"}
+{"q": "APIはありますか？", "a": "OpenAPI 仕様は `openapi/fabrikam-support.yaml` にあります。", "source": "openapi/fabrikam-support.yaml"}
+{"q": "セキュリティ基準は？", "a": "ISO 27001/13485準拠。詳細は `docs/policies/security.md`。", "source": "docs/policies/security.md"}

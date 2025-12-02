@@ -1,0 +1,38 @@
+[
+  {
+    "id": "FP-100",
+    "name": "Fabriflex Pro",
+    "category": "Material",
+    "price": 1200,
+    "stock": 320,
+    "tags": [
+      "pro",
+      "high-durability",
+      "sensor-ready"
+    ]
+  },
+  {
+    "id": "FL-050",
+    "name": "Fabriflex Lite",
+    "category": "Material",
+    "price": 420,
+    "stock": 1200,
+    "tags": [
+      "lite",
+      "education",
+      "cost-effective"
+    ]
+  },
+  {
+    "id": "ES-200",
+    "name": "Edge Sensor",
+    "category": "Sensor",
+    "price": 260,
+    "stock": 800,
+    "tags": [
+      "ble",
+      "wifi",
+      "thread"
+    ]
+  }
+]
