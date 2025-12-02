@@ -1,6 +1,4 @@
-# Fabrikam Demo Repository
-
-> デモ・検証・プリセールスで使える、実践的で“本物っぽい”Fabrikam社のレポジトリ一式。  
+# Fabrikam Repository
 > 2つの React サンプル + 2つの Python サンプル、そしてエージェント検索（RAG/軽量キーワード検索）に最適化したドキュメント/FAQ/JSONLを収録。
 
 ## 構成
